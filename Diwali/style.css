@@ -1,0 +1,110 @@
+body {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.diwali{
+    top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+    animation: diwali 10s infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    background-image: url('');
+    
+    text-align: center;
+
+}
+
+.ima{
+    border: red solid 2px;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    margin: 50%;
+    top: 50px;
+    
+}
+
+h1{
+    text-shadow: red 5px 5px;
+    color: aqua;
+    font-size: 100px;
+    font-family: 'Indie Flower', cursive;
+    animation: diwali-text 10s infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    transform: rotate(360deg);
+    transform-origin: 50% 50%;
+    transform-style: preserve-3d;
+    padding: 10px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+    transition: transform 0.5s;
+    animation-play-state: paused;
+    animation-name: diwali-text-pause;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-play-state: paused;
+}
+
+h2{
+    color: #fff;
+    text-size-adjust: 50px auto;
+    font-size: 20px;
+    text-shadow: red 5px 5px;
+    animation: diwali-text 10s infinite;
+    text-align: center;
+    margin: 0;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    font-family: 'Indie Flower';
+    animation: diwali-text 10s infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    transform: rotate(360deg);
+    transform-origin: 50% 50%;
+    transform-style: preserve-3d;
+    padding: 10px;
+    border-radius: 100%;
+    transition: transform 0.5s;
+    animation-play-state: paused;
+    animation-name: diwali-text-pause;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+ 
+}
